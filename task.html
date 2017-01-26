@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Add a task</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+        <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css" media="all" />
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="div3" style="
+             font-family: cursive;
+             color: brown;
+             ">
+            Enter the Task name:<br>
+            <input type="text" id="textid">
+            <br><br>
+            
+            Description:<br>
+            <textarea name="textBox" rows="5" cols="50" id="txtarea"></textarea>
+            <br><br>
+            
+            Priority Level: 
+            <select name="level" id="priorityid" style="
+                    font-family: cursive;
+                    color: brown;
+                    border-radius: 2px;">
+                <option value="High">High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+            </select>
+            <br><br>
+            
+             <input type="button" value="Add" id="addbtn" style="
+                    font-family: cursive;
+                    color: brown;
+                    border-radius: 2px;
+                    ">
+             <input type="button" value="Cancel" id="cancelbtn" 
+                    style="
+                    font-family: cursive;
+                    color: brown;
+                    border-radius: 2px;
+                    ">
+        </div>
+    </body>
+</html>
